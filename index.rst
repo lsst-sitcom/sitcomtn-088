@@ -15,7 +15,15 @@ Abstract
 
 Linked with: SITCOM-948
 
-This technote summarizes the results of the m1m3 dynamic tests including positioning during a slew and the settling time after a slew
+This technote summarizes the results of the m1m3 dynamic tests including positioning during a slew and the settling time after a slew.
+
+Related SITCOM tickets
+======================
+
+SITCOM-797: `M1M3 - Slewing analysis - Positioning <https://jira.lsstcorp.org/browse/SITCOM-797>`__
+
+SITCOM-798: `M1M3 - Settling time after a slew <https://jira.lsstcorp.org/browse/SITCOM-798>`__
+
 
 Add content here
 ================

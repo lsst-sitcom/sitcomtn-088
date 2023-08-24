@@ -19,7 +19,9 @@ This technote summarizes the results of the m1m3 dynamic tests including positio
 
 Requirements
 ------------
+
 **LTS-88-REQ-0051**
+
 **LTS-88-REQ-0052** (TBC)
 
 Related SITCOM tickets

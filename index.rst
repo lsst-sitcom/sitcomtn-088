@@ -15,21 +15,34 @@ Abstract
 
 Linked with: SITCOM-948
 
-This technote summarizes the results of the m1m3 dynamic tests including positioning during a slew (TBC) and the settling time after a slew.
+This technote summarizes the results of the m1m3 dynamic tests including positioning stability before and after a slew and the settling time after a slew.
 
 Requirements
 ------------
 
 **LTS-88-REQ-0051**
 
-**LTS-88-REQ-0052** (TBC)
+**LTS-88-REQ-0052** 
 
 Related SITCOM tickets
 ======================
 
-SITCOM-797: `M1M3 - Slewing analysis - Positioning <https://jira.lsstcorp.org/browse/SITCOM-797>`__ (TBC, see technote 0084)
+SITCOM-797: `M1M3 - Slewing analysis - Positioning <https://jira.lsstcorp.org/browse/SITCOM-797>`__ 
 
 SITCOM-798: `M1M3 - Settling time after a slew <https://jira.lsstcorp.org/browse/SITCOM-798>`__
+
+SITCOM-797: M1M3 - Slewing analysis - Positioning
+=================================================
+
+Requirement verified
+--------------------
+
+**LTS-88-REQ-0052**: The positioning system SHALL maintain mirror decenter less than +/- 6 micrometer, mirror tilt less than +/- 24 e-6 degree, and piston less than +/- 1  micrometer, all relative to the mirror cell, after a slew of 3.5 degrees or less (short slew).
+
+Test Case and Results
+---------------------
+
+See `SITCOMTN-084 <https://sitcomtn-084.lsst.io/>`__.
 
 SITCOM-798: M1M3 - Settling time after a slew
 =============================================
@@ -37,18 +50,23 @@ SITCOM-798: M1M3 - Settling time after a slew
 Requirement verified
 --------------------
 
-**LTS-88-REQ-0051**: The positioning system SHALL be able to meet all its requirements within 3
-seconds of ending a short slew (3.5 degrees in 2 seconds)
-
-Plot the settling time of the M1M3 for X, Y, Z, RX, RY, and RZ.
-
-The data comes from the EFD: imsData. The IMS is the Independent Measurement System, a set of electronic micrometers that measure the displacement of the M1M3 mirror with respect to the cell. According to LTS-88 it has a 4 um accuracy in XYZ and 3e-5 degree accuracy in RXRYRZ.
+**LTS-88-REQ-0051**: The positioning system SHALL be able to
+meet all its requirements within 3 seconds of ending a short
+slew (3.5 degrees in 2 seconds)
 
 *The requirement is for the system to have settled to the same (within accuracy) position after a short slew, within 3 seconds.*
 
 Test Case
 ---------
-LVV-11258: currently tracked `here <https://github.com/lsst-sitcom/notebooks_vandv/tree/tickets/SITCOM-798/notebooks/tel_and_site/subsys_req_ver/m1m3>`__ under LVV-1876, test name to be corrected.
+`LVV-11258 <https://github.com/lsst-sitcom/notebooks_vandv/tree/tickets/SITCOM-798/notebooks/tel_and_site/subsys_req_ver/m1m3>`__ 
+
+Plot the settling time of the M1M3 for X, Y, Z, RX, RY, and RZ.
+
+The data comes from the EFD: imsData. The IMS is the
+Independent Measurement System, a set of electronic
+micrometers that measure the displacement of the M1M3 mirror
+with respect to the cell. According to LTS-88 it has a 4 um
+accuracy in XYZ and 3e-5 degree accuracy in RXRYRZ.
 
 Test Data
 ---------

@@ -83,6 +83,7 @@ Results
 -------
 IMS XYZ position with azimuth and elevation reference. Vertical line denotes reference time (slew stop):
 
+
 .. figure:: /_static/xyz_vs_azel.png
    :name: fig-xyzvsazel
 

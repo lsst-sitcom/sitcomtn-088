@@ -130,7 +130,7 @@ Settling behavior from the IMS measurements. IMS values during and after slew, w
 
 
 Requirements verified
---------------------
+---------------------
 
 **LTS-88-REQ-0128**: The IMS shall be able to measure the position of the mirror relative to the
 mirror cell to an accuracy of +/- 4 micro m, repeatability of +/- 2 micro m and a resolution of

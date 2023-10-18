@@ -54,7 +54,7 @@ Requirement verified
 meet all its requirements within 3 seconds of ending a short
 slew (3.5 degrees in 2 seconds)
 
-*The requirement is for the system to have settled to the same (within accuracy) position after a short slew, within 3 seconds.*
+*The requirement is for the system to have settled to the same (within precision) position after a short slew, within 3 seconds.*
 
 Test Case
 ---------
@@ -66,7 +66,7 @@ The data comes from the EFD: imsData. The IMS is the
 Independent Measurement System, a set of electronic
 micrometers that measure the displacement of the M1M3 mirror
 with respect to the cell. According to LTS-88 it has a 4 um
-accuracy in XYZ and 3e-5 degree accuracy in RXRYRZ.
+accuracy in XYZ and 3e-5 degree accuracy in RXRYRZ. 
 
 Test Data
 ---------

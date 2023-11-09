@@ -13,12 +13,36 @@
 Abstract
 ========
 
-Linked with: SITCOM-948
+Linked with: `SITCOM-948 <https://jira.lsstcorp.org/browse/SITCOM-948>`_
 
-This technote summarizes the results of the m1m3 dynamic tests including positioning stability before and after a slew and the settling time after a slew.
+This technote summarizes the results of the m1m3 dynamic tests.
+It contains an overall explanation of how the M1M3 system work.
+In addition, it serves as an index to the other tech notes produced on each test or data analysis.
+That includes tests like: Bump Test, Hard Point Breakaway Test, Settling Time, Positioning Repeatability, Force Balance System at different elevations, Inertia Compensation System performance, and deep study on vibrations.
+
+Introduction
+============
+
+.. todo:
+
+   Add a brief introduction.
+
+M1M3 Performance Analysis Tech Notes
+====================================
+
+* `SITCOMTN-081 <https://sitcomtn-081.lsst.io/>`_ M1M3 Hardpoint oscillations during elevation slews
+* `SITCOMTN-082 <https://sitcomtn-082.lsst.io/>`_ M1M3 Hard Point Breakaway Analysis
+* `SITCOMTN-083 <https://sitcomtn-083.lsst.io/>`_ M1M3 mirror cell bump testing
+* `SITCOMTN-084 <https://sitcomtn-084.lsst.io/>`_ M1M3 - Slewing analysis - Positioning
+* `SITCOMTN-092 <https://sitcomtn-092.lsst.io/>`_ M1M3 Inertia Compensation System Performance Analysis
+
 
 Requirements
 ------------
+
+For all the tests, the requirements are extracted from the following document:
+
+* `LTS-88 <https://ls.st/LTS-88>`_ M1M3 Mirror Support Design Requirements Document
 
 **LTS-88-REQ-0051**
 
@@ -27,7 +51,7 @@ Requirements
 Related SITCOM tickets
 ======================
 
-SITCOM-797: `M1M3 - Slewing analysis - Positioning <https://jira.lsstcorp.org/browse/SITCOM-797>`__ 
+SITCOM-797: `M1M3 - Slewing analysis - Positioning <https://jira.lsstcorp.org/browse/SITCOM-797>`__
 
 SITCOM-798: `M1M3 - Settling time after a slew <https://jira.lsstcorp.org/browse/SITCOM-798>`__
 

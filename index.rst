@@ -13,19 +13,40 @@
 Abstract
 ========
 
-Linked with: `SITCOM-948 <https://jira.lsstcorp.org/browse/SITCOM-948>`_
+This technote is linked with: `SITCOM-948 <https://jira.lsstcorp.org/browse/SITCOM-948>`_
 
-This technote summarizes the results of the m1m3 dynamic tests.
+This technote summarizes the results of the M1M3 dynamic tests.
 It contains an overall explanation of how the M1M3 system work.
 In addition, it serves as an index to the other tech notes produced on each test or data analysis.
-That includes tests like: Bump Test, Hard Point Breakaway Test, Settling Time, Positioning Repeatability, Force Balance System at different elevations, Inertia Compensation System performance, and deep study on vibrations.
+That includes tests like: Bump Test, Hard Point Breakaway Test, Settling Time, Positioning Repeatability,
+Force Balance System at different elevations, Inertia Compensation System performance,
+and deep study on vibrations.
 
 Introduction
 ============
 
 .. todo:
-
-   Add a brief introduction.
+   Reffer to other Technotes?
+   * Add a brief description of the M1M3 system.
+   * Add a brief description of the M1M3 control system.
+   * Add a brief description of the M1M3 sensors.
+   * Add a brief description of the M1M3 actuators.
+   * Add a brief description of the M1M3 hardpoints.
+   * Add a brief description of the M1M3 hardpoint control system.
+   * Add a brief description of the M1M3 hardpoint sensors.
+   * Add a brief description of the M1M3 hardpoint actuators.
+   * Add a brief description of the M1M3 hardpoint breakaway system.
+   * Add a brief description of the M1M3 hardpoint breakaway sensors.
+   * Add a brief description of the M1M3 hardpoint breakaway actuators.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
+   * Add a brief description of the M1M3 hardpoint breakaway control system.
 
 M1M3 Performance Analysis Tech Notes
 ====================================
@@ -33,8 +54,8 @@ M1M3 Performance Analysis Tech Notes
 * `SITCOMTN-081 <https://sitcomtn-081.lsst.io/>`_ M1M3 Hardpoint oscillations during elevation slews
 * `SITCOMTN-082 <https://sitcomtn-082.lsst.io/>`_ M1M3 Hard Point Breakaway Analysis
 * `SITCOMTN-083 <https://sitcomtn-083.lsst.io/>`_ M1M3 mirror cell bump testing
-* `SITCOMTN-084 <https://sitcomtn-084.lsst.io/>`_ M1M3 - Slewing analysis - Positioning
-* `SITCOMTN-092 <https://sitcomtn-092.lsst.io/>`_ M1M3 Inertia Compensation System Performance Analysis
+* `SITCOMTN-084 <https://sitcomtn-084.lsst.io/>`_ M1M3 Position Repeatability Analysis
+* `SITCOMTN-092 <https://sitcomtn-092.lsst.io/>`_ M1M3 Force Balance System - Inertia Compensation
 
 
 Requirements
@@ -46,7 +67,7 @@ For all the tests, the requirements are extracted from the following document:
 
 **LTS-88-REQ-0051**
 
-**LTS-88-REQ-0052** 
+**LTS-88-REQ-0052**
 
 Related SITCOM tickets
 ======================
@@ -82,7 +103,7 @@ slew (3.5 degrees in 2 seconds)
 
 Test Case
 ---------
-`LVV-11258 <https://github.com/lsst-sitcom/notebooks_vandv/tree/tickets/SITCOM-798/notebooks/tel_and_site/subsys_req_ver/m1m3>`__ 
+`LVV-11258 <https://github.com/lsst-sitcom/notebooks_vandv/tree/tickets/SITCOM-798/notebooks/tel_and_site/subsys_req_ver/m1m3>`__
 
 Plot the settling time of the M1M3 for X, Y, Z, RX, RY, and RZ.
 
@@ -90,7 +111,7 @@ The data comes from the EFD: imsData. The IMS is the
 Independent Measurement System, a set of electronic
 micrometers that measure the displacement of the M1M3 mirror
 with respect to the cell. According to LTS-88 it has a 4 um
-accuracy in XYZ and 3e-5 degree accuracy in RXRYRZ. 
+accuracy in XYZ and 3e-5 degree accuracy in RXRYRZ.
 
 Test Data
 ---------
@@ -111,7 +132,7 @@ IMS XYZ position with azimuth and elevation reference. Vertical line denotes ref
 .. figure:: /_static/xyz_vs_azel.png
    :name: fig-xyzvsazel
 
-   IMS XYZ during the slew, compared to azimuth and elevation from mount information. 
+   IMS XYZ during the slew, compared to azimuth and elevation from mount information.
 
 RXRYRZ rotation with azimuth and elevation reference. Vertical line denotes reference time (slew stop):
 
@@ -204,6 +225,6 @@ Related documents
 .. Make in-text citations with: :cite:`bibkey`.
 .. Uncomment to use citations
 .. .. rubric:: References
-.. 
+..
 .. .. bibliography:: local.bib lsstbib/books.bib lsstbib/lsst.bib lsstbib/lsst-dm.bib lsstbib/refs.bib lsstbib/refs_ads.bib
 ..    :style: lsst_aa

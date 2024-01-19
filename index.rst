@@ -103,7 +103,7 @@ slew (3.5 degrees in 2 seconds)
 *The requirement is for the system to have settled to the same (within precision) position after a short slew, within 3 seconds.*
 
 Test Case and Results
----------
+---------------------
 See `SITCOMTN-095 <https://sitcomtn-095.lsst.io/>`__.
 
 Related documents

@@ -2,22 +2,19 @@
 M1M3 Dynamic tests
 ##################
 
+.. TODO: Delete the note below before merging new content to the main branch.
+.. note::
+
+   **This technote is a work-in-progress.**
+
 .. abstract::
    This technote is linked with: `SITCOM-948 <https://jira.lsstcorp.org/browse/SITCOM-948>`_
 
    This technote summarizes the results of the M1M3 dynamic tests.
-   It contains an overall explanation of how the M1M3 system work.
    In addition, it serves as an index to the other tech notes produced on each test or data analysis.
    That includes tests like: Bump Test, Hard Point Breakaway Test, Settling Time, Positioning Repeatability,
    Force Balance System at different elevations, Inertia Compensation System performance,
    and deep study on vibrations.
-
-
-.. TODO: Delete the note below before merging new content to the main branch.
-
-.. note::
-
-   **This technote is a work-in-progress.**
 
 
 Introduction

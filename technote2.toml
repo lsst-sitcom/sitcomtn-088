@@ -1,0 +1,20 @@
+[technote]
+id = "SITCOMTN-088"
+series_id = "SITCOMTN"
+title = "M1M3 Dynamic tests"
+canonical_url = "https://sitcomtn-088.lsst.io"
+github_url = "https://github.com/lsst-sitcom/sitcomtn-088"
+github_default_branch = "main"
+#..date_created = 2015-11-18
+date_updated = 2024-01-19
+organization.name = "Vera C. Rubin Observatory"
+#license.id = "CC-BY-4.0"
+
+[[technote.authors]]
+name = {given = "Peter", family = "Ferguson"}
+[[technote.authors]]
+name = {given = "Ignacio", family = "Sevilla"}
+
+#[[technote.authors.affiliations]]
+#name = "Rubin Observatory Project Office"
+#internal_id = "RubinObs"

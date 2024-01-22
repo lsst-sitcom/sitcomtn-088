@@ -1,6 +1,14 @@
-:tocdepth: 1
+##################
+M1M3 Dynamic tests
+##################
 
-.. sectnum::
+.. abstract::
+
+   Linked with: SITCOM-948
+
+   This technote summarizes the results of the m1m3 dynamic tests including positioning during a slew and the settling time after a slew
+
+
 
 .. Metadata such as the title, authors, and description are set in metadata.yaml
 
@@ -26,27 +34,7 @@ Introduction
 ============
 
 .. todo:
-   Reffer to other Technotes?
-   * Add a brief description of the M1M3 system.
-   * Add a brief description of the M1M3 control system.
-   * Add a brief description of the M1M3 sensors.
-   * Add a brief description of the M1M3 actuators.
-   * Add a brief description of the M1M3 hardpoints.
-   * Add a brief description of the M1M3 hardpoint control system.
-   * Add a brief description of the M1M3 hardpoint sensors.
-   * Add a brief description of the M1M3 hardpoint actuators.
-   * Add a brief description of the M1M3 hardpoint breakaway system.
-   * Add a brief description of the M1M3 hardpoint breakaway sensors.
-   * Add a brief description of the M1M3 hardpoint breakaway actuators.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
-   * Add a brief description of the M1M3 hardpoint breakaway control system.
+      Add a brief introduction to the topic of this technote.
 
 M1M3 Performance Analysis Tech Notes
 ====================================
@@ -104,10 +92,12 @@ slew (3.5 degrees in 2 seconds)
 
 Test Case and Results
 ---------------------
+
 See `SITCOMTN-095 <https://sitcomtn-095.lsst.io/>`__.
 
 Related documents
 =================
+
 `M1M3 Mirror Support Design Requirement Document LTS-88 <https://docushare.lsst.org/docushare/dsweb/Get/LTS-88/LTS-88.pdf>`__
 
 .. Make in-text citations with: :cite:`bibkey`.

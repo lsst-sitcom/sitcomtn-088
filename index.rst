@@ -44,46 +44,14 @@ For all the tests, the requirements are extracted from the following document:
 
 * `LTS-88 <https://ls.st/LTS-88>`_ M1M3 Mirror Support Design Requirements Document
 
-**LTS-88-REQ-0051**
-
-**LTS-88-REQ-0052**
-
-Related SITCOM tickets
-======================
-
-SITCOM-797: `M1M3 - Slewing analysis - Positioning <https://jira.lsstcorp.org/browse/SITCOM-797>`__
-
-SITCOM-798: `M1M3 - Settling time after a slew <https://jira.lsstcorp.org/browse/SITCOM-798>`__
-
-SITCOM-797: M1M3 - Slewing analysis - Positioning
-=================================================
-
-Requirement verified
---------------------
-
-**LTS-88-REQ-0052**: The positioning system SHALL maintain mirror decenter less than +/- 6 micrometer, mirror tilt less than +/- 24 e-6 degree, and piston less than +/- 1  micrometer, all relative to the mirror cell, after a slew of 3.5 degrees or less (short slew).
-
-Test Case and Results
----------------------
-
-See `SITCOMTN-084 <https://sitcomtn-084.lsst.io/>`__.
-
-SITCOM-798: M1M3 - Settling time after a slew
-=============================================
-
-Requirement verified
---------------------
-
 **LTS-88-REQ-0051**: The positioning system SHALL be able to
 meet all its requirements within 3 seconds of ending a short
 slew (3.5 degrees in 2 seconds)
 
-*The requirement is for the system to have settled to the same (within precision) position after a short slew, within 3 seconds.*
+**LTS-88-REQ-0052**: The positioning system SHALL maintain mirror decenter less than
+ +/- 6 micrometer, mirror tilt less than +/- 24 e-6 degree, and piston less than +/- 1
+ micrometer, all relative to the mirror cell, after a slew of 3.5 degrees or less (short slew).
 
-Test Case and Results
----------------------
-
-See `SITCOMTN-095 <https://sitcomtn-095.lsst.io/>`__.
 
 Related documents
 =================

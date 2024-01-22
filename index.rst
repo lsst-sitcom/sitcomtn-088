@@ -3,14 +3,15 @@ M1M3 Dynamic tests
 ##################
 
 .. abstract::
+   This technote is linked with: `SITCOM-948 <https://jira.lsstcorp.org/browse/SITCOM-948>`_
 
-   Linked with: SITCOM-948
+   This technote summarizes the results of the M1M3 dynamic tests.
+   It contains an overall explanation of how the M1M3 system work.
+   In addition, it serves as an index to the other tech notes produced on each test or data analysis.
+   That includes tests like: Bump Test, Hard Point Breakaway Test, Settling Time, Positioning Repeatability,
+   Force Balance System at different elevations, Inertia Compensation System performance,
+   and deep study on vibrations.
 
-   This technote summarizes the results of the m1m3 dynamic tests including positioning during a slew and the settling time after a slew
-
-
-
-.. Metadata such as the title, authors, and description are set in metadata.yaml
 
 .. TODO: Delete the note below before merging new content to the main branch.
 
@@ -18,17 +19,6 @@ M1M3 Dynamic tests
 
    **This technote is a work-in-progress.**
 
-Abstract
-========
-
-This technote is linked with: `SITCOM-948 <https://jira.lsstcorp.org/browse/SITCOM-948>`_
-
-This technote summarizes the results of the M1M3 dynamic tests.
-It contains an overall explanation of how the M1M3 system work.
-In addition, it serves as an index to the other tech notes produced on each test or data analysis.
-That includes tests like: Bump Test, Hard Point Breakaway Test, Settling Time, Positioning Repeatability,
-Force Balance System at different elevations, Inertia Compensation System performance,
-and deep study on vibrations.
 
 Introduction
 ============

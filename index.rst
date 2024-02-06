@@ -1,6 +1,6 @@
-##################
-M1M3 Dynamic tests
-##################
+##########
+M1M3 Tests
+##########
 
 .. TODO: Delete the note below before merging new content to the main branch.
 .. note::
@@ -40,14 +40,6 @@ Requirements
 For all the tests, the requirements are extracted from the following document:
 
 * `LTS-88 <https://ls.st/LTS-88>`_ M1M3 Mirror Support Design Requirements Document
-
-**LTS-88-REQ-0051**: The positioning system SHALL be able to
-meet all its requirements within 3 seconds of ending a short
-slew (3.5 degrees in 2 seconds)
-
-**LTS-88-REQ-0052**: The positioning system SHALL maintain mirror decenter less than
-+/- 6 micrometer, mirror tilt less than +/- 24 e-6 degree, and piston less than +/- 1
-micrometer, all relative to the mirror cell, after a slew of 3.5 degrees or less (short slew).
 
 
 Related documents

@@ -26,13 +26,15 @@ Introduction
 M1M3 Performance Analysis Tech Notes
 ====================================
 
+* `SITCOMTN-079 <https://sitcomtn-079.lsst.io/>`_ M1M3 Iterative improvement of LUT through balance forces
 * `SITCOMTN-081 <https://sitcomtn-081.lsst.io/>`_ M1M3 Hardpoint oscillations during elevation slews
 * `SITCOMTN-082 <https://sitcomtn-082.lsst.io/>`_ M1M3 Hard Point Breakaway Analysis
-* `SITCOMTN-083 <https://sitcomtn-083.lsst.io/>`_ M1M3 mirror cell bump testing
+* `SITCOMTN-083 <https://sitcomtn-083.lsst.io/>`_ M1M3 Mirror cell bump testing
 * `SITCOMTN-084 <https://sitcomtn-084.lsst.io/>`_ M1M3 Position Repeatability Analysis
 * `SITCOMTN-092 <https://sitcomtn-092.lsst.io/>`_ M1M3 Force Balance System - Inertia Compensation
 * `SITCOMTN-095 <https://sitcomtn-095.lsst.io/>`_ M1M3 Settling time after a slew
 * `SITCOMTN-107 <https://sitcomtn-107.lsst.io/>`_ M1M3 actuator delays and following errors
+
 
 Requirements
 ------------

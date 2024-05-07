@@ -13,6 +13,8 @@ internal_id = "fergusonps"
 orcid = "https://orcid.org/0000-0001-6957-1627"
 [[technote.authors]]
 name = {given = "Ignacio", family = "Sevilla"}
+[[technote.authors]]
+name = {given = "Joaquín", family = "Hernández"}
 #[[technote.authors.affiliations]]
 #name = "Department of Physics"
 #internal_id = "WisconsinMadison"

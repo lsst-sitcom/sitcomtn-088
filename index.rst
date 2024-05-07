@@ -17,12 +17,6 @@ M1M3 Tests
    and deep study on vibrations.
 
 
-Introduction
-============
-
-.. todo:
-      Add a brief introduction to the topic of this technote.
-
 M1M3 Performance Analysis Tech Notes
 ====================================
 

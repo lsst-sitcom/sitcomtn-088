@@ -127,13 +127,13 @@ Hardpoint tests
 
   *Results*: Evidence shown for oscillatory behavior during elevation and azimuth slews, by measuring hardpoint forces and identifying events above a 100 N threshold.  Analysis of a one-off event started by TMA in June 2023 demonstrated no apparent coupling to M1M3.
 
-  *Pending tasks*: Technote marked as current needs a review or update. Pending a more systematic analysis of slew events and identification of low amplitude oscillations at low elevation/earthquake behavior.
+  *Pending tasks*: Technote marked as current needs a review or update. Pending a more systematic analysis of slew events and identification of low amplitude oscillations at low elevation/earthquake behavior. 
 
 * `SITCOMTN-082 <https://sitcomtn-082.lsst.io/>`_ **M1M3 Hardpoint Breakaway** 
 
-  *Results*:  Breakaway system works in general with notable exceptions that need to be investigated: HP2, HP5 breakaway system faults at low (<30 deg) elevations, response shape also different.
+  *Results*:  Breakaway system works in general. Some notable exceptions (HP2, HP5 breakaway system faults at low (<30 deg) elevations, response shape also different) seem to be have an explanation according to Yijung and Petr.
 
-  *Pending tasks*: Technote format is old and seems missing some discussion, conclusions.
+  *Pending tasks*: Technote format is old and seems missing some discussion, conclusions, explanation of issues pointed out above.
 
 Stability tests
 ---------------

@@ -117,9 +117,14 @@ Bump tests
 ----------
 * `SITCOMTN-083 <https://sitcomtn-083.lsst.io/>`_ **M1M3 Mirror Cell Bump Testing**
 
-  *Results*: Tests have been performed throughout several days. Map of failures per actuator created, together with typical failure modes (mostly on Z axis), for ~200 N bump tests. These failures modes are mostly over/undershoots of applied force vs demand. No actuators came to fault. 
-
-  *Pending tasks*: Make full (1+ years) history of bump tests to drill down into a frequentist probability of failure modes. Determine course of action with current numbers, what is the requirement other than 'not fault?'.
+  *Results*: Bump tests have been performed throughout several months. Map of failures per actuator were created, together with typical failure modes (mostly on Z axis), for ~200 N bump tests.
+  Actuators showed a higher failure rate when pushing the mirror up, with larger deviations in the positive direction.
+  Importantly, for failed actuators no worsening trend over time was observed. Latency between actual and demanded forces was marginal.
+  Forces overshot in 23% and undershot in 73% of bump test executions.
+  
+  *Pending tasks*:  Establish a failure probability measure.
+  Actuators passing the bump test may need to publish measured forces in the EFD for continuous monitoring, enabling early detection of potential failures.
+  Additionally, define action plans based on the current data and requirements other than 'not fault'.
 
 Hardpoint tests
 ---------------

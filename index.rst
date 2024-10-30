@@ -95,11 +95,11 @@ Index of tests and verification
 Force balance tests
 -------------------
 
-* `SITCOMTN-079 <https://sitcomtn-079.lsst.io/v/SITCOM-1111/index.html>`_ **M1M3 Iterative Improvement of LUT Through Balance Forces**
+* `SITCOMTN-079 <https://sitcomtn-079.lsst.io/>`_ **M1M3 Iterative Improvement of LUT Through Balance Forces**
 
   *Results*: After the improvements made in July 2023 to the Look-Up Table (LUT), the hardpoint measured forces have been minimized. The “rule of thumb” for the LUT is that we should expect about 1/1000 correction. Our mirror weighs 170,000 N. We should expect to get within 170N. It looks like we are within this range.
 
-  *Pending tasks*: To further improve the LUT, tests could be performed to validate that we have reached convergence and the LUT includes all the gravitational loads dependency. Merge latest version of technote into main, technote format is old.
+  *Pending tasks*: To further improve the LUT, tests could be performed to validate that we have reached convergence and the LUT includes all the gravitational loads dependency.
 
 * `SITCOMTN-092 <https://sitcomtn-092.lsst.io/v/SITCOM-1081/index.html>`_ **M1M3 Force Balance System - Inertia Compensation**
 

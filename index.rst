@@ -128,11 +128,13 @@ Bump tests
 
 Hardpoint tests
 ---------------
-* `SITCOMTN-081 <https://sitcomtn-081.lsst.io/>`_ **M1M3 Hardpoint Oscillations During Elevation Slews**
+* `SITCOMTN-081 <https://sitcomtn-081.lsst.io/v/SITCOM-918/index.html>`_ **M1M3 Hardpoint Oscillations During Elevation Slews**
 
   *Results*: Evidence shown for oscillatory behavior during elevation and azimuth slews, by measuring hardpoint forces and identifying events above a 100 N threshold.  Analysis of a one-off event started by TMA in June 2023 demonstrated no apparent coupling to M1M3.
+  The technote has been updated with an analysis of the oscillations during elevation slews for a period from April 2023 to June 2023. The tests show small oscillations of unknown origin (as of September 2024) but which do not appear to compromise the hardpoint limits. 
+  In addition, an analysis of earthquake events has been performed. However, the data are inconclusive since on the days analyzed it was not possible to compare the hardpoint forces along the same axes and compare them with the accelerations because the telescope was stationary.
 
-  *Pending tasks*: Technote marked as current needs a review or update. Pending a more systematic analysis of slew events and identification of low amplitude oscillations at low elevation/earthquake behavior. 
+  *Pending tasks*: Pending a more systematic analysis of earthquake behavior because it could not be done with the existing data at the time. 
 
 * `SITCOMTN-082 <https://sitcomtn-082.lsst.io/>`_ **M1M3 Hardpoint Breakaway** 
 

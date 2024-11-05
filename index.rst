@@ -138,9 +138,10 @@ Hardpoint tests
 
 * `SITCOMTN-082 <https://sitcomtn-082.lsst.io/>`_ **M1M3 Hardpoint Breakaway** 
 
-  *Results*:  Breakaway system works in general. Some notable exceptions (HP2, HP5 breakaway system faults at low (<30 deg) elevations, response shape also different) seem to be have an explanation according to Yijung and Petr.
+  *Results*:  Breakaway system works in general. Some notable exceptions (HP2, HP5 breakaway system faults at low (<30 deg) elevations, response shape also different) seem to be have an explanation according to Yijung and Petr. The format of the technical notes is in the new format (SITCOM-1111-2 dated 2024-01-23). However, these updates are not shown in the “Current” version which is in the old format. The technical note SITCOM-111-2 contains more explanations and conclusions than the current one.
 
-  *Pending tasks*: Technote format is old and seems missing some discussion, conclusions, explanation of issues pointed out above.
+  *Pending tasks*: Update to “current” the latest version of tecnote and perform the tasks indicated in requirements in verification. 
+
 
 Stability tests
 ---------------

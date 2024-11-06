@@ -105,7 +105,7 @@ Force balance tests
 
   *Results*: After applying different forces at 10% to 100% performance, maximum are occasionally seen at above 1000N, whereas the limit currently stands at 900 N.
 
-  *Pending tasks*: Update technote to reflect most recent results (shown at the Glass Safety review) and merge into main. Define next steps, and possible risk minimization. Technote format is old. There is a ticket (`SITCOM-1463 <https://sitcomtn-092.lsst.io/v/SITCOM-1463/index.html>`) to change the format but although it shows as done, the ticket information does not appear.
+  *Pending tasks*: Update technote to reflect most recent results (shown at the Glass Safety review) and merge into main. Define next steps, and possible risk minimization. Technote format is old. There is a ticket (`SITCOM-1463 <https://sitcomtn-092.lsst.io/v/SITCOM-1463/index.html>`) with the new format but although this ticket is "done", the information does not appear.
 
 * `SITCOMTN-107 <https://sitcomtn-107.lsst.io/>`_ **M1M3 Actuator Delays and Following Errors**
 

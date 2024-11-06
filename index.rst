@@ -161,7 +161,7 @@ Stability tests
 
   *Results*: After analyzing all the two-night tracking we have seen that the mirror remains stable.  The duration of the tracking is 42 seconds and not 30 seconds as initially indicated.
 
-  *Pending tasks*: Figure out what is going on with the 42 s 'observing' period. 
+  *Pending tasks*: Figure out what is going on with the 42 s 'observing' period. The information is not shown in the “current” version of technote. 
 
 Requirements
 ------------

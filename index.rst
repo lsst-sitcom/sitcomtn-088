@@ -155,7 +155,7 @@ Stability tests
   
   *Results*: The requirement is failed using a threshold of 5 seconds after slew start due to a failure in the yPosition and yRotation columns predominantly, due to a slow drift of the cell. However, in a large majority of cases settling happens in < 2 s later and just barely misses the requirement for the system. NB that we have included RMS and bias of the IMS value, despite not being strictly the specification, as we considered it relevant to highlight these slow drifts that may not incur in any jittering at all.
 
-  *Pending tasks*: Repeat analysis with updated adjustments to commands (which could be fixing the errors) when mirror is in place. 
+  *Pending tasks*: Repeat analysis with updated adjustments to commands (which could be fixing the errors) when mirror is in place. Technote format is old.
 
 * `SITCOMTN-109 <https://sitcomtn-109.lsst.io/>`_ **M1M3 Analyze position and rotation stability throughout a tracking period**
 

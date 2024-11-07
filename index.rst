@@ -42,13 +42,13 @@ Index of tests and verification
 
    * -
        | 31 May 2023
-     - | 24 July 2023
+     - | 24 October 2024
      - SITCOMTN-079 
 
    * -
        | 31 May 2023 -
        | 27 June 2023
-     - | 25 March 2024
+     - | 14 October 2024
      - SITCOMTN-081 
 
    * -
@@ -60,7 +60,7 @@ Index of tests and verification
    * -
        | 01 November 2023 -
        | 15 January 2024
-     - | 31 May 2024
+     - | 10 July 2024
      - SITCOMTN-083 
 
    * -
@@ -80,8 +80,8 @@ Index of tests and verification
      - SITCOMTN-095
 
    * -
-       | 20 December 2023 -
-       | 22 December 2023
+       | 2 January 2024 -
+       | 5 January 2024
      - | 18 March 2024
      - SITCOMTN-107 
 

@@ -14,7 +14,7 @@ Summary of M1M3 Tests
 Introduction
 ============
 
-This technote summarizes the M1M3 dynamic tests in the context of Glass Safety. It will be periodically updated with new results. The current technote corresponds to status as of June 4th 2024. A list of technotes with their updated dates and associated data sets is provided below. Following that, the list is broken down into thematic sections on different aspects of M1M3 Glass Safety and a summary of current results and next steps is provided.
+This technote summarizes the M1M3 dynamic tests in the context of Glass Safety. It will be periodically updated with new results. The current technote corresponds to status as of November 7th 2024. A list of technotes with their updated dates and associated data sets is provided below. Following that, the list is broken down into thematic sections on different aspects of M1M3 Glass Safety and a summary of current results and next steps is provided.
 
 
 Related tickets

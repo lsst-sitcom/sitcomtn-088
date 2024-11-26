@@ -14,7 +14,7 @@ Summary of M1M3 Tests
 Introduction
 ============
 
-This technote summarizes the M1M3 dynamic tests in the context of Glass Safety. It will be periodically updated with new results. The current technote corresponds to status as of June 4th 2024. A list of technotes with their updated dates and associated data sets is provided below. Following that, the list is broken down into thematic sections on different aspects of M1M3 Glass Safety and a summary of current results and next steps is provided.
+This technote summarizes the M1M3 dynamic tests in the context of Glass Safety. It will be periodically updated with new results. The current technote corresponds to status as of November 7th 2024. A list of technotes with their updated dates and associated data sets is provided below. Following that, the list is broken down into thematic sections on different aspects of M1M3 Glass Safety and a summary of current results and next steps is provided.
 
 
 Related tickets
@@ -42,13 +42,13 @@ Index of tests and verification
 
    * -
        | 31 May 2023
-     - | 24 July 2023
+     - | 24 October 2024
      - SITCOMTN-079 
 
    * -
        | 31 May 2023 -
        | 27 June 2023
-     - | 25 March 2024
+     - | 14 October 2024
      - SITCOMTN-081 
 
    * -
@@ -60,7 +60,7 @@ Index of tests and verification
    * -
        | 01 November 2023 -
        | 15 January 2024
-     - | 31 May 2024
+     - | 10 July 2024
      - SITCOMTN-083 
 
    * -
@@ -80,8 +80,8 @@ Index of tests and verification
      - SITCOMTN-095
 
    * -
-       | 20 December 2023 -
-       | 22 December 2023
+       | 2 January 2024 -
+       | 5 January 2024
      - | 18 March 2024
      - SITCOMTN-107 
 
@@ -95,17 +95,17 @@ Index of tests and verification
 Force balance tests
 -------------------
 
-* `SITCOMTN-079 <https://sitcomtn-079.lsst.io/v/SITCOM-1111/index.html>`_ **M1M3 Iterative Improvement of LUT Through Balance Forces**
+* `SITCOMTN-079 <https://sitcomtn-079.lsst.io/>`_ **M1M3 Iterative Improvement of LUT Through Balance Forces**
 
   *Results*: After the improvements made in July 2023 to the Look-Up Table (LUT), the hardpoint measured forces have been minimized. The “rule of thumb” for the LUT is that we should expect about 1/1000 correction. Our mirror weighs 170,000 N. We should expect to get within 170N. It looks like we are within this range.
 
-  *Pending tasks*: To further improve the LUT, tests could be performed to validate that we have reached convergence and the LUT includes all the gravitational loads dependency. Merge latest version of technote into main, technote format is old.
+  *Pending tasks*: To further improve the LUT, tests could be performed to validate that we have reached convergence and the LUT includes all the gravitational loads dependency.
 
 * `SITCOMTN-092 <https://sitcomtn-092.lsst.io/v/SITCOM-1081/index.html>`_ **M1M3 Force Balance System - Inertia Compensation**
 
   *Results*: After applying different forces at 10% to 100% performance, maximum are occasionally seen at above 1000N, whereas the limit currently stands at 900 N.
 
-  *Pending tasks*: Update technote to reflect most recent results (shown at the Glass Safety review) and merge into main. Define next steps, and possible risk minimization. Technote format is old.
+  *Pending tasks*: Update technote to reflect most recent results (shown at the Glass Safety review) and merge into main. Define next steps, and possible risk minimization. Technote format is old. There is a ticket (`SITCOM-1463 <https://sitcomtn-092.lsst.io/v/SITCOM-1463/index.html>`) with the new format but although this ticket is "done", the information does not appear.
 
 * `SITCOMTN-107 <https://sitcomtn-107.lsst.io/>`_ **M1M3 Actuator Delays and Following Errors**
 
@@ -128,17 +128,20 @@ Bump tests
 
 Hardpoint tests
 ---------------
-* `SITCOMTN-081 <https://sitcomtn-081.lsst.io/>`_ **M1M3 Hardpoint Oscillations During Elevation Slews**
+* `SITCOMTN-081 <https://sitcomtn-081.lsst.io/v/SITCOM-918/index.html>`_ **M1M3 Hardpoint Oscillations During Elevation Slews**
 
   *Results*: Evidence shown for oscillatory behavior during elevation and azimuth slews, by measuring hardpoint forces and identifying events above a 100 N threshold.  Analysis of a one-off event started by TMA in June 2023 demonstrated no apparent coupling to M1M3.
+  The technote has been updated with an analysis of the oscillations during elevation slews for a period from April 2023 to June 2023. The tests show small oscillations of unknown origin (as of September 2024) but which do not appear to compromise the hardpoint limits. 
+  In addition, an analysis of earthquake events has been performed. However, the data are inconclusive since on the days analyzed it was not possible to compare the hardpoint forces along the same axes and compare them with the accelerations because the telescope was stationary.
 
-  *Pending tasks*: Technote marked as current needs a review or update. Pending a more systematic analysis of slew events and identification of low amplitude oscillations at low elevation/earthquake behavior. 
+  *Pending tasks*: Pending a more systematic analysis of earthquake behavior because it could not be done with the existing data at the time. 
 
 * `SITCOMTN-082 <https://sitcomtn-082.lsst.io/>`_ **M1M3 Hardpoint Breakaway** 
 
-  *Results*:  Breakaway system works in general. Some notable exceptions (HP2, HP5 breakaway system faults at low (<30 deg) elevations, response shape also different) seem to be have an explanation according to Yijung and Petr.
+  *Results*:  Breakaway system works in general. Some notable exceptions (HP2, HP5 breakaway system faults at low (<30 deg) elevations, response shape also different) seem to be have an explanation according to Yijung and Petr. 
 
-  *Pending tasks*: Technote format is old and seems missing some discussion, conclusions, explanation of issues pointed out above.
+  *Pending tasks*: The format of the technical notes is in the new format (SITCOM-1111-2 dated 2024-01-23). However, these updates are not shown in the “Current” version which is in the old format. The technical note SITCOM-111-2 contains more explanations and conclusions than the current one. Update to “current” the latest version of tecnote and perform the tasks indicated in requirements in verification. 
+
 
 Stability tests
 ---------------
@@ -152,13 +155,13 @@ Stability tests
   
   *Results*: The requirement is failed using a threshold of 5 seconds after slew start due to a failure in the yPosition and yRotation columns predominantly, due to a slow drift of the cell. However, in a large majority of cases settling happens in < 2 s later and just barely misses the requirement for the system. NB that we have included RMS and bias of the IMS value, despite not being strictly the specification, as we considered it relevant to highlight these slow drifts that may not incur in any jittering at all.
 
-  *Pending tasks*: Repeat analysis with updated adjustments to commands (which could be fixing the errors) when mirror is in place. 
+  *Pending tasks*: Repeat analysis with updated adjustments to commands (which could be fixing the errors) when mirror is in place. Technote format is old.
 
 * `SITCOMTN-109 <https://sitcomtn-109.lsst.io/>`_ **M1M3 Analyze position and rotation stability throughout a tracking period**
 
   *Results*: After analyzing all the two-night tracking we have seen that the mirror remains stable.  The duration of the tracking is 42 seconds and not 30 seconds as initially indicated.
 
-  *Pending tasks*: Figure out what is going on with the 42 s 'observing' period. 
+  *Pending tasks*: Figure out what is going on with the 42 s 'observing' period. The information is not shown in the “current” version of technote. 
 
 Requirements
 ------------
